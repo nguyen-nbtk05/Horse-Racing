@@ -1,0 +1,19 @@
+[server]
+host = "127.0.0.1"
+port = 8080
+
+[database]
+url = "sqlite://data/horse_racing.db"
+max_connections = 5
+
+[logging]
+level = "debug"
+
+[upload]
+max_size_mb = 50
+
+[notification]
+event_batch_size = 50
+delivery_batch_size = 50
+max_attempts = 3
+retention_days = 90
